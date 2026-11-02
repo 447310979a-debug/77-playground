@@ -1,0 +1,6 @@
+{
+  "kokoro-onnx-LICENSE.txt": "https://raw.githubusercontent.com/thewh1teagle/kokoro-onnx/main/LICENSE",
+  "kokoro-model-card.md": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/README.md",
+  "kokoro-voices.md": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/VOICES.md",
+  "kokoro-code-LICENSE.txt": "https://raw.githubusercontent.com/hexgrad/kokoro/main/LICENSE"
+}
