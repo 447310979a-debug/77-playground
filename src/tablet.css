@@ -1,0 +1,65 @@
+.friend-scroll-note{display:none}
+/* Use the visible landscape height; Safari's toolbars must not push controls off screen. */
+@media(min-width:640px) and (min-height:500px) and (orientation:landscape){
+  .page-game{padding:0 max(1rem,env(safe-area-inset-right)) 0 max(1rem,env(safe-area-inset-left));min-height:100svh}
+  .page-game .topbar{min-height:4rem;height:4rem}
+  .page-game .brand{font-size:1.15rem;gap:.7rem}
+  .page-game .brand-mark{width:3rem;height:3rem}
+  .page-game .game-page{height:calc(100svh - 4rem);min-height:0;max-width:1200px;padding:.35rem 0 max(.75rem,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:.5rem}
+  .page-game .page-heading{flex:none;align-items:center;gap:.75rem;margin:0}
+  .page-game .page-heading h1{font-size:1.5rem;line-height:1.2}
+  .page-game .page-heading p{margin-top:.25rem;font-size:.85rem}
+  .page-game .page-heading .round-button{min-width:3rem;min-height:3rem}
+  .page-game .arcade{flex:1;min-height:0;width:100%;max-width:none;margin:0;display:grid;grid-template-columns:minmax(0,1fr) 12rem;gap:1rem;text-align:center}
+  .page-game .arcade.has-active-game{grid-template-columns:minmax(0,1fr);max-width:58rem;align-self:center}
+  .page-game .arcade-cabinet{min-width:0;min-height:0;border-width:6px;border-radius:1.25rem;display:flex;flex-direction:column}
+  .page-game .arcade-marquee{flex:none;padding:.25rem .8rem;min-height:1.8rem;font-size:.75rem}
+  .page-game .arcade-marquee>span{font-size:1rem}
+  .page-game .arcade-feedback{flex:none;min-height:2rem;padding:.3rem .7rem 0;font-size:.9rem;line-height:1.4}
+  .page-game .arcade-controls,.page-game .crane-controls{flex:none;min-height:0;padding:.5rem;gap:.75rem}
+  .page-game .arcade-controls>.primary,.page-game .crane-controls>.primary{min-height:3rem;padding:.5rem 1.2rem}
+  .page-game .crane-direction{width:3.25rem;height:3.25rem;min-width:3.25rem;font-size:1.7rem}
+  .page-game .arcade-small-note{flex:none;padding:0 .6rem .35rem;font-size:.8rem;line-height:1.3}
+  .page-game .crane-glass{flex:1;min-height:0;margin:.5rem .5rem 0;display:flex;justify-content:center}
+  .page-game .crane-scene{height:100%;width:100%;min-height:0}
+  .page-game .arcade-friends{min-height:0;margin:0;display:flex;flex-direction:column;text-align:left}
+  .page-game .arcade-friends>p{flex:none;margin:0 0 .5rem;font-size:.95rem;line-height:1.5}
+  .page-game .friend-scroll-note{display:block;color:#7b8c7d;font-size:.8rem;font-weight:400}
+  .page-game .arcade-friend-grid{min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:.5rem;padding:.25rem .35rem .5rem .15rem}
+  .page-game .arcade-friend-grid>button{min-height:7.5rem;padding:.3rem;border-radius:.8rem}
+  .page-game .arcade-friend-grid .art{width:4rem;max-width:100%;margin:auto}
+  .page-game .arcade-friend-grid>button>span:not(.art){font-size:.85rem}
+  .page-game .game-note{flex:none;margin:0;font-size:.8rem;line-height:1.4}
+  .page-game .game-page>.text-button{flex:none;align-self:center;min-height:3rem;padding:.25rem .75rem}
+  .page-game .real-pusher{flex:1;min-height:0;margin:.5rem .5rem 0;display:grid;grid-template-columns:minmax(0,1fr) 11rem;grid-template-rows:auto minmax(0,1fr);border-radius:.8rem}
+  .page-game .pusher-window{grid-column:1;grid-row:1/3;min-height:0}
+  .page-game .pusher-table{height:100%;width:100%}
+  .page-game .pusher-score{grid-column:2;grid-row:1;padding:.45rem;justify-content:center;gap:.35rem;font-size:.85rem}
+  .page-game .pusher-score>span{min-width:0;flex-basis:100%;line-height:1.4}
+  .page-game .pusher-score strong{font-size:1rem}
+  .page-game .pusher-aim{grid-column:2;grid-row:2;padding:.5rem;border-top:2px solid #c3a46c;display:flex;flex-direction:column;justify-content:center}
+  .page-game .pusher-aim>label{font-size:.85rem;line-height:1.4}
+  .page-game .pusher-aim>input{flex:none;height:3rem}
+  .page-game .pusher-positions{gap:.4rem;grid-template-columns:repeat(3,minmax(0,1fr))}
+  .page-game .pusher-positions>button{padding:0;min-width:0;min-height:3rem;font-size:.8rem;border-width:1px}
+  .page-game .listen-bubbles{flex:1;min-height:0;margin:.5rem .5rem 0;padding:.5rem .75rem 0;display:flex;flex-direction:column}
+  .page-game .bubble-round-label{flex:none;font-size:.8rem}
+  .page-game .bubble-question{flex:none;margin:.3rem 0 .5rem;gap:.5rem}
+  .page-game .bubble-question>p{font-size:.85rem}
+  .page-game .bubble-question h2{font-size:1.35rem}
+  .page-game .bubble-listen{min-height:3rem;padding:.4rem .75rem}
+  .page-game .listen-bubbles .bubble-orchard{flex:1;min-height:4.5rem;margin:0;align-items:center;gap:1rem}
+  .page-game .pop-target{width:min(26%,calc((100svh - 23rem)*.65));max-width:9rem;min-width:4.5rem;min-height:4.5rem}
+  .page-game .listen-bubbles .bubble-basket{flex:none;min-height:3.5rem;height:3.5rem;margin:.5rem 0 0;padding:0 .5rem;gap:1rem}
+  .page-game .bubble-basket>i{height:1.25rem;border-top-width:3px}
+  .page-game .bubble-found{width:3rem;margin:0 0 .5rem}
+  .page-game .bubble-basket>.art{width:4rem;margin-bottom:.5rem}
+  .page-game .bubble-demo-again{flex:none;min-height:3rem;margin:0}
+  .page-game .game-picker{flex:1;min-height:0;gap:1rem;margin:0}
+  .page-game .game-door{padding:1rem;display:flex;flex-direction:column;justify-content:center}
+  .page-game .game-door-scene{height:clamp(5rem,calc(100svh - 26rem),11rem);flex:none}
+  .page-game .game-door-scene>.art{width:clamp(4rem,calc(100svh - 27rem),9rem);margin:0}
+  .page-game .game-door>strong{font-size:1.1rem;margin-top:.5rem}
+  .page-game .game-door p{margin-top:.5rem;font-size:.85rem;line-height:1.5}
+  .page-game .game-door-entry{margin-top:.5rem}
+}

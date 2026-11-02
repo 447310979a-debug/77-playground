@@ -1,0 +1,125 @@
+.arcade-cabinet.hide{background:#edf0db;border-color:#a8b68d;box-shadow:0 7px 0 #81966a,0 18px 35px #52684c13}
+.hide .arcade-marquee{background:#d6dfbc;color:#5f754b;border-color:#abb994}
+.arcade-cabinet.kitchen{background:#f8e4d5;border-color:#d5a17d;box-shadow:0 7px 0 #ad7a55,0 18px 35px #8c6e2a13}
+.kitchen .arcade-marquee{background:#efc7a6;color:#825f43;border-color:#d2ac8c}
+.story-game{display:flex;flex-direction:column;min-height:0}
+.story-question{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.75rem 1rem;text-align:left}
+.story-question h2{font-size:clamp(1.2rem,3vw,1.6rem);line-height:1.25;margin:.25rem 0 0;color:#395d4b}
+.story-round{font-size:.8rem;color:#617862}
+.story-question .bubble-listen{flex:none;font-size:.9rem;min-width:6rem}
+.story-hide .story-question{flex-wrap:wrap}
+.story-question-actions{display:flex;align-items:center;gap:.5rem;flex:none}
+.story-question-actions .hide-hint{min-height:2.75rem;padding:.45rem .7rem;font-size:.85rem;white-space:nowrap}
+.hide-hint[aria-pressed=true]{opacity:1;background:#dce8c9;color:#496044}
+.story-world{position:relative;isolation:isolate;aspect-ratio:16/10;min-height:14rem;margin:0 .7rem;overflow:hidden;border-radius:1.2rem;border:3px solid #a8b793;background-image:url(/assets/story-backgrounds-v15.png);background-size:100% 200%;background-position:center top}
+.story-kitchen .story-world{background-position:center bottom;border-color:#d5b692}
+.hide-furniture{position:absolute;inset:0;display:flex;align-items:flex-end;gap:3%;padding:7% 3% 9%}
+.hiding-place{position:relative;display:flex;flex-direction:column;justify-content:flex-end;width:31.3%;height:90%;padding:0;background:transparent;color:#5d6f55;opacity:1!important;perspective:700px;touch-action:manipulation;min-width:48px;min-height:48px}
+.hiding-cavity{display:block;position:relative;height:83%;background:#597566;box-shadow:inset 0 3px 12px #203c3a66,0 8px 9px #5b563b22;border:8px solid #ae8555;border-radius:.6rem;overflow:hidden}
+.is-open .hiding-cavity{overflow:visible}
+.hiding-friend{display:block;position:absolute;width:95%;left:2.5%;bottom:0;transform:scale(.95);transform-origin:center 70%;transition:transform .5s cubic-bezier(.2,.8,.25,1.3)}
+.hiding-friend>.art{display:block;width:100%}
+.hiding-place:not(.is-open) .hiding-friend>.art{animation:hidden-friend-peek 4.8s ease-in-out infinite}
+.place-1 .hiding-friend>.art{animation-delay:-1.6s!important}.place-2 .hiding-friend>.art{animation-delay:-3.2s!important}
+.is-paused .hiding-friend>.art{animation-play-state:paused!important}
+.hide-cover{position:absolute;inset:-2px;display:flex;z-index:2;transform-style:preserve-3d}
+.hide-cover>i{display:block;width:32%;height:100%;position:relative;background:repeating-linear-gradient(90deg,#c69a68 0,#c69a68 9%,#c39764 10%,#d4b181 30%);border:2px solid #b38652;transition:transform .6s cubic-bezier(.2,.8,.3,1),width .5s,opacity .4s;transform-origin:left center;backface-visibility:hidden}
+.hide-cover>i:last-child{position:absolute;right:0;transform-origin:right center}
+.hide-cover>i::after{content:"";position:absolute;top:53%;right:12%;width:.4rem;height:1.5rem;border-radius:.3rem;background:#8b6845}
+.hide-cover>i:last-child::after{right:auto;left:12%}
+.is-open .hide-cover>i:first-child{transform:rotateY(-102deg)}
+.is-open .hide-cover>i:last-child{transform:rotateY(102deg)}
+.is-open .hiding-friend{transform:translateY(-4%) scale(1)}
+.place-label{display:block;margin-top:.7rem;background:#fffbebdf;padding:.3rem .15rem;border-radius:1rem;font-size:.85rem;line-height:1.35}
+.place-0{height:64%}
+.place-0:not(.is-open) .hiding-friend{top:0;bottom:auto}
+.place-0 .hiding-cavity{border-color:#819d89;border-radius:1.8rem 1.8rem .8rem .8rem;box-shadow:-6px 1px 0 #6e8e79,6px 1px 0 #6e8e79,0 7px 0 #bca178}
+.place-0 .hiding-cavity::before{content:"";position:absolute;inset:auto -14px -8px;height:28%;z-index:3;background:linear-gradient(#b9c8ac,#8faa91);border:6px solid #789780;border-radius:1rem .95rem .6rem .6rem;box-shadow:0 5px 0 #637b64}
+.place-0 .hide-cover{top:56%;background:linear-gradient(135deg,#adbf9d,#8faa91);border:3px solid #789780;border-radius:1.1rem;transition:transform .65s cubic-bezier(.2,.8,.3,1.15),top .5s;transform-origin:left bottom}
+.place-0 .hide-cover>i{border:0;background:transparent;transform:none!important}
+.place-0 .hide-cover>i::after{width:.35rem;height:.35rem;top:45%;right:30%;background:#789780;border-radius:50%}
+.place-0.is-open .hide-cover{transform:translateY(67%) rotate(-12deg) scale(.86)}
+.place-2 .hiding-cavity{border:7px solid #d5b98d;background:linear-gradient(#c5ddd4,#f0e5bc);border-radius:2rem 2rem .25rem .25rem}
+.place-2 .hide-cover{border-top:6px solid #b28b58;inset:-8px -10px -2px}
+.place-2 .hide-cover>i{width:28%;background:repeating-linear-gradient(90deg,#d4a79c 0,#efd0c1 16%,#d8afa0 25%);border:0;transform:none!important;transition:width .6s;border-radius:0 0 45% 10%}
+.place-2 .hide-cover>i:last-child{position:absolute;right:0;border-radius:0 0 10% 45%}
+.place-2 .hide-cover>i::after{display:none}
+.place-2.is-open .hide-cover>i{width:12%}
+.more-clues .place-0:not(.is-open) .hide-cover{top:76%}
+.more-clues .place-1:not(.is-open) .hide-cover>i{width:18%}
+.more-clues .place-2:not(.is-open) .hide-cover>i{width:14%}
+.found-friend .hiding-friend{animation:friend-peek 1.4s ease-in-out both}
+.found-sparkles{position:absolute;top:6%;left:-5%;width:110%;font-size:1.6rem;color:#ba8536;pointer-events:none;animation:story-sparkle 1.4s ease-out both}
+.story-feedback{font-size:.9rem;color:#56705c;min-height:2.8rem;margin:0;display:grid;place-items:center;padding:.5rem .8rem;line-height:1.5}
+.story-footer{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.7rem;padding:.25rem .75rem 1rem;min-height:4rem}
+.story-footer .primary,.story-footer .secondary{min-height:3rem;font-size:.9rem;padding:.5rem 1rem}
+.story-stamps{display:flex;gap:.3rem}.story-stamps>span{display:grid;place-items:center;width:1.9rem;height:1.9rem;background:#fff9e6aa;border:1px dashed #b1ba9e;border-radius:50%;color:#a4af99;font-size:1.2rem}
+.story-stamps>span.filled{background:#f8d986;border-style:solid;border-color:#d3ab59;color:#8d682f;animation:stamp-in .35s ease-out}
+.story-goal{font-size:.85rem;color:#647b61}
+.kitchen-monster{position:absolute;width:auto;height:72%;aspect-ratio:1;top:3%;left:50%;translate:-50% 0;transition:filter .15s;animation:monster-breathe 3s ease-in-out infinite}
+.monster-frame{position:absolute;inset:0;background-image:url(/assets/monster-expressions-v15.png);background-size:200% 200%;background-repeat:no-repeat;opacity:0}
+.monster-neutral{background-position:left top;opacity:1}.monster-hungry{background-position:right top}.monster-chewing{background-position:left bottom}.monster-delighted{background-position:right bottom}
+.ready-to-eat{filter:drop-shadow(0 0 9px #ffdf9b)}
+.ready-to-eat .monster-neutral{opacity:0}.ready-to-eat .monster-hungry{opacity:1}
+.kitchen-plates{position:absolute;bottom:2%;left:8%;right:8%;height:30%;display:flex;gap:6%;align-items:center;justify-content:center}
+.food-plate{position:relative;width:27%;max-width:8rem;aspect-ratio:1.2;min-height:48px;min-width:48px;background:radial-gradient(ellipse at 50% 63%,#e6e6d0 0 47%,#fffdf0 48% 60%,#c5cabb 62% 64%,transparent 66%);padding:0;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;opacity:1!important;transition:transform .2s}
+.food-plate>.art{width:85%;margin:auto;display:block;transform:translateY(-10%);pointer-events:none}
+.being-dragged>.art{opacity:.25}
+.is-fed>.art{opacity:0}
+.wrong-food{animation:food-no-thanks .6s ease-in-out}
+.food-ghost{position:fixed;width:5rem;aspect-ratio:1;z-index:40;transform:translate(-50%,-50%);pointer-events:none;filter:drop-shadow(0 5px 4px #654a3429)}
+.food-ghost>.art{display:block;width:100%}
+.food-flight{animation:feed-bite .65s cubic-bezier(.35,.1,.6,1) both}
+.monster-yum{position:absolute;left:58%;top:4%;font-weight:700;font-size:1.1rem;background:#fff7dc;border-radius:1rem 1rem 1rem 0;padding:.35rem .6rem;white-space:nowrap;opacity:0;color:#ae6641}
+.is-celebrating .kitchen-monster{animation:monster-chew 2.3s ease-in-out both}
+.is-celebrating .monster-neutral{opacity:0}
+.is-celebrating .monster-hungry{animation:monster-mouth-open 2.3s steps(1) both}
+.is-celebrating .monster-chewing{animation:monster-mouth-chew 2.3s steps(1) both}
+.is-celebrating .monster-delighted{animation:monster-mouth-happy 2.3s steps(1) both}
+.is-celebrating .monster-yum{animation:yum-bubble 2.3s ease-out both}
+.story-finished{position:absolute;inset:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff8e9c9;backdrop-filter:blur(2px);font-size:1rem;color:#49654c}
+.story-finished>.art{width:32%;max-width:9rem;animation:friend-peek 1s ease-out}
+.game-door.hide{background:#eef1dd;border-color:#dce2c6}.game-door.kitchen{background:#fae6db;border-color:#ebcbbc}
+@keyframes friend-peek{0%{transform:translateY(14%) scale(.8)}35%{transform:translateY(-18%) rotate(-7deg)}60%{transform:translateY(-3%) rotate(5deg)}85%,100%{transform:translateY(-4%) scale(1)}}
+@keyframes hidden-friend-peek{0%,60%,100%{transform:translateY(0) rotate(0)}70%{transform:translateY(-3%) rotate(-3deg)}80%{transform:translateY(-2%) rotate(3deg)}90%{transform:translateY(-3%) rotate(-1deg)}}
+@keyframes story-sparkle{0%{opacity:0;transform:scale(.4)}35%{opacity:1;transform:scale(1)}100%{opacity:0;transform:translateY(-1rem) scale(1.2)}}
+@keyframes stamp-in{50%{transform:scale(1.2)}}
+@keyframes monster-breathe{50%{transform:translateY(2%) scale(1.015,.985)}}
+@keyframes food-no-thanks{25%,75%{transform:translateX(-4px) rotate(-3deg)}50%{transform:translateX(4px) rotate(3deg)}}
+@keyframes feed-bite{0%{transform:translate(-50%,-50%) scale(1);opacity:1}65%{opacity:1}100%{transform:translate(calc(-50% + var(--food-dx)),calc(-50% + var(--food-dy))) scale(.12);opacity:0}}
+@keyframes monster-chew{0%,25%,100%{transform:translateY(0)}35%,55%{transform:scale(1.06,.94)}45%,65%{transform:scale(.98,1.02)}80%{transform:translateY(-3%) rotate(-4deg)}90%{transform:translateY(0) rotate(3deg)}}
+@keyframes monster-mouth-open{0%,28%{opacity:1}29%,100%{opacity:0}}
+@keyframes monster-mouth-chew{0%,28%{opacity:0}29%,68%{opacity:1}69%,100%{opacity:0}}
+@keyframes monster-mouth-happy{0%,68%{opacity:0}69%,100%{opacity:1}}
+@keyframes yum-bubble{0%,65%{opacity:0;transform:scale(.7)}80%,100%{opacity:1;transform:scale(1)}}
+@media(min-width:640px) and (min-height:500px) and (orientation:landscape){
+  .page-game .story-game{flex:1;min-height:0}
+  .page-game .story-question{flex:none;padding:.35rem .8rem}
+  .page-game .story-question h2{font-size:1.2rem;margin:.15rem 0 0}
+  .page-game .story-world{flex:1;min-height:0;aspect-ratio:auto;margin:0 .5rem;background-size:100% 200%}
+  .page-game .hide-furniture{max-width:650px;left:50%;width:100%;transform:translateX(-50%);padding:2% 3% 1.5%;gap:7%}
+  .page-game .hiding-place{width:28.6%;height:min(95%,17rem)}
+  .page-game .place-0{height:min(78%,13rem)}
+  .page-game .hiding-friend{width:min(100%,calc((100svh - 20rem)*.6));left:50%;translate:-50% 0}
+  .page-game .place-label{font-size:.8rem;margin-top:.3rem}
+  .page-game .story-feedback{flex:none;min-height:2.2rem;padding:.3rem .5rem;font-size:.85rem}
+  .page-game .story-footer{flex:none;padding:0 .5rem .5rem;min-height:3.5rem}
+  .page-game .kitchen-monster{height:72%}
+  .page-game .kitchen-plates{height:27%;bottom:2%;gap:2rem}
+  .page-game .food-plate{height:100%;width:auto;max-width:7rem;aspect-ratio:1.2}
+  .page-game .story-finished>.art{width:auto;height:70%;aspect-ratio:1;max-width:none}
+  .page-game .game-picker{grid-template-rows:repeat(2,minmax(0,1fr))}
+  .page-game .game-door{display:grid;grid-template-columns:3.5rem 1fr;align-content:center;column-gap:.7rem;padding:.7rem}
+  .page-game .game-door-scene{grid-row:1/5;height:auto;min-height:4rem}
+  .page-game .game-door-scene>.art{width:100%;margin:0}
+  .page-game .game-door-scene>svg{display:none}
+  .page-game .game-door>strong{font-size:1rem;margin:0}
+  .page-game .game-door-english{font-size:.75rem;margin:0}
+  .page-game .game-door p{font-size:.8rem;margin:.3rem 0;line-height:1.35}
+  .page-game .game-door-entry{margin:0;font-size:.8rem}
+}
+@media(prefers-reduced-motion:reduce){
+  .hiding-place .hiding-friend>.art{animation:none!important}
+  .food-flight,.found-sparkles{display:none}
+  .is-celebrating .monster-delighted{opacity:1}
+}

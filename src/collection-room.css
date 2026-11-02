@@ -1,0 +1,82 @@
+.collection-page .page-heading{margin-bottom:1rem}
+.collection-room{width:100%;margin:auto}
+.room-stage{display:flex;align-items:center;justify-content:center;min-height:0}
+.living-room{position:relative;width:100%;max-width:1080px;aspect-ratio:1672/941;border-radius:1.5rem;isolation:isolate;box-shadow:0 6px 24px #77603918}
+.room-background{display:block;width:100%;height:100%;border-radius:inherit;user-select:none}
+.room-toy{position:absolute;width:13%;min-width:48px;min-height:48px;aspect-ratio:1;padding:0;background:transparent;transform:translate(-50%,-85%);border-radius:50%;z-index:1}
+.room-toy::before{content:"";position:absolute;left:23%;right:23%;bottom:12%;height:8%;border-radius:50%;background:#56482533;filter:blur(3px);z-index:-1}
+.room-toy>.art{width:100%;height:100%;pointer-events:none}
+.room-toy[aria-pressed="true"]>.art{filter:drop-shadow(0 0 5px #fff6cb);animation:room-hello .45s ease-out}
+.room-toy:active:not(:disabled){transform:translate(-50%,-85%)}
+.room-empty-note{position:absolute;bottom:7%;left:50%;transform:translateX(-50%);white-space:nowrap;background:#fff9eae8;padding:.5rem 1rem;border-radius:1rem;color:#866342;font-size:.9rem}
+.room-toolbar{display:flex;align-items:center;justify-content:space-between;gap:.75rem;max-width:1080px;margin:.75rem auto 0;min-height:3rem}
+.room-greeting{line-height:1.45;min-width:0;text-align:left}
+.room-greeting>strong{display:block;font-weight:600;font-size:1rem}
+.room-greeting>span{display:block;font-size:.8rem;color:var(--muted)}
+.room-pagination{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
+.room-pagination>button{width:3rem;height:3rem;border:1px solid #ded8c6;border-radius:50%;background:#fffdf5;font-size:1.4rem}
+.room-pagination>span{font-size:.85rem;min-width:2.2rem;text-align:center}
+.collection-page>.button-row{margin-top:1rem}
+@keyframes room-hello{50%{transform:translateY(-7%) rotate(-5deg)}}
+@media(prefers-reduced-motion:reduce){.room-toy[aria-pressed="true"]>.art{animation:none}}
+@media(max-width:480px){
+  .collection-page .page-heading h1{font-size:1.5rem}
+  .living-room{border-radius:.8rem}
+  .room-toolbar{align-items:flex-start;flex-wrap:wrap}
+  .room-pagination{margin-left:auto}
+  .collection-page>.button-row{gap:.6rem}
+  .collection-page>.button-row>button{min-height:3rem;padding:.6rem 1rem;font-size:.9rem}
+}
+@media(min-width:640px) and (min-height:500px) and (orientation:landscape){
+  .page-collection .topbar{height:4rem;min-height:4rem}
+  .page-collection .collection-page{height:calc(100svh - 4rem);padding:.35rem 0 max(.75rem,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:.5rem}
+  .page-collection .page-heading{margin:0;gap:.75rem;align-items:center;flex:none}
+  .page-collection .page-heading h1{font-size:1.5rem}
+  .page-collection .page-heading p{font-size:.8rem;margin-top:.2rem}
+  .page-collection .page-heading .round-button{min-height:3rem;min-width:3rem}
+  .page-collection .collection-room{flex:1;min-height:0;display:flex;flex-direction:column;margin:0}
+  .page-collection .room-stage{flex:1}
+  .page-collection .living-room{width:min(100%,calc((100svh - 17rem)*1.7768))}
+  .page-collection .room-toolbar{width:min(100%,1080px,calc((100svh - 17rem)*1.7768));margin:.35rem auto 0;flex:none}
+  .page-collection .button-row{flex:none;margin:0;gap:.75rem}
+  .page-collection .button-row>button{min-height:3rem;padding:.5rem 1rem}
+}
+
+.room-background{overflow:hidden}
+.room-sky .room-toy::before{display:none}
+.room-sky .room-toy{filter:drop-shadow(0 0 6px #fce39a55)}
+.room-garden .toy-tree{width:19%}
+.room-garden .toy-fish,.room-garden .toy-boat{width:10%}
+.room-road .toy-bus{width:18%}
+
+.room-toy{touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;cursor:grab}
+.room-toy.moving{z-index:4;cursor:grabbing;filter:drop-shadow(0 5px 5px #55472f55)}
+.room-toy.moving>.art{animation:none;filter:drop-shadow(0 0 5px #fff6cb)}
+.room-move-area{position:absolute;pointer-events:none;z-index:0;border:2px dashed #fffbea;background:#ffefb755;border-radius:1rem;min-height:.4rem}
+
+.room-sea .room-toy:not(.toy-crab):not(.toy-octopus):not(.toy-starfish)::before{display:none}
+.room-bedroom .toy-bed{width:28%}
+.room-bedroom .toy-lamp{width:12%}
+
+.room-garden .toy-butterfly::before,.room-garden .toy-bee::before{display:none}
+
+/* Hanging clothes stay attached to the wardrobe hooks, with no floor shadow. */
+.room-wardrobe .room-toy::before,.room-entry .toy-backpack::before,
+.room-reef .room-toy::before,.room-pond .room-toy::before,.room-airport .room-toy::before{display:none}
+.room-wardrobe .room-toy{width:14%}
+.room-farm .toy-horse,.room-farm .toy-cow{width:17%}
+.room-farm .toy-duck{width:10%}
+.room-pond .toy-boat{width:18%}
+.room-street .toy-bus{width:18%}
+.room-street .toy-bicycle,.room-street .toy-pink-bicycle{width:11%}
+.room-sky .room-toy{width:10%;min-width:48px}
+.room-garden .toy-butterfly,.room-garden .toy-bee{width:10%}
+/* Each new object sits on its own support within its scene. */
+.room-farm .toy-chick,.room-garden .toy-dragonfly,.room-kitchen .toy-fork{width:8%}
+.room-farm .toy-donkey{width:14%}
+.room-pond .toy-frog,.room-breakfast .toy-cheese,.room-washroom .room-toy{width:10%}
+.room-washroom .toy-towel{width:14%}
+.room-garden .toy-dragonfly::before,.room-washroom .toy-towel::before{display:none}
+
+.room-kitchen .toy-fork>.art,.room-washroom .toy-comb>.art{transform:scaleY(.65) rotate(45deg)}
+.room-kitchen .toy-plate>.art{transform:scaleY(.5);transform-origin:50% 80%}
