@@ -1,0 +1,1480 @@
+{
+  "items": [
+    {
+      "id": "zh_021",
+      "concept": "cat",
+      "language": "zh-CN",
+      "target": "猫",
+      "label": "猫",
+      "prompt": "找一找，小猫在哪里？",
+      "example": "小猫睡着了。",
+      "audio": {
+        "label": "/audio/zh_021-label.mp3",
+        "prompt": "/audio/zh_021-prompt.mp3",
+        "example": "/audio/zh_021-example.mp3",
+        "character": "/audio/zh_021-character.mp3"
+      },
+      "offlinePrompt": "在绘本里找一只猫。",
+      "theme": "动物朋友",
+      "characterPrompt": "请找出猫字。"
+    },
+    {
+      "id": "zh_022",
+      "concept": "dog",
+      "language": "zh-CN",
+      "target": "狗",
+      "label": "狗",
+      "prompt": "找一找，小狗在哪里？",
+      "example": "小狗摇尾巴。",
+      "audio": {
+        "label": "/audio/zh_022-label.mp3",
+        "prompt": "/audio/zh_022-prompt.mp3",
+        "example": "/audio/zh_022-example.mp3",
+        "character": "/audio/zh_022-character.mp3"
+      },
+      "offlinePrompt": "在绘本里找一只狗。",
+      "theme": "动物朋友",
+      "characterPrompt": "请找出狗字。"
+    },
+    {
+      "id": "zh_024",
+      "concept": "fish",
+      "language": "zh-CN",
+      "target": "鱼",
+      "label": "小鱼",
+      "prompt": "找一找，小鱼在哪里？",
+      "example": "小鱼游呀游。",
+      "audio": {
+        "label": "/audio/zh_024-label.mp3",
+        "prompt": "/audio/zh_024-prompt.mp3",
+        "example": "/audio/zh_024-example.mp3",
+        "character": "/audio/zh_024-character.mp3"
+      },
+      "offlinePrompt": "在绘本里找一条鱼。",
+      "theme": "动物朋友",
+      "characterPrompt": "请找出小鱼的鱼字。"
+    },
+    {
+      "id": "zh_023",
+      "concept": "bird",
+      "language": "zh-CN",
+      "target": "鸟",
+      "label": "小鸟",
+      "prompt": "找一找，小鸟在哪里？",
+      "example": "小鸟站在树上。",
+      "audio": {
+        "label": "/audio/zh_023-label.mp3",
+        "prompt": "/audio/zh_023-prompt.mp3",
+        "example": "/audio/zh_023-example.mp3",
+        "character": "/audio/zh_023-character.mp3"
+      },
+      "offlinePrompt": "和家长看看窗外有没有小鸟。",
+      "theme": "动物朋友",
+      "characterPrompt": "请找出小鸟的鸟字。"
+    },
+    {
+      "id": "zh_040",
+      "concept": "ball",
+      "language": "zh-CN",
+      "target": "球",
+      "label": "球",
+      "prompt": "找一找，小球在哪里？",
+      "example": "小球滚过来。",
+      "audio": {
+        "label": "/audio/zh_040-label.mp3",
+        "prompt": "/audio/zh_040-prompt.mp3",
+        "example": "/audio/zh_040-example.mp3",
+        "character": "/audio/zh_040-character.mp3"
+      },
+      "offlinePrompt": "和家长轻轻滚一次球。",
+      "theme": "家里的东西",
+      "characterPrompt": "请找出球字。"
+    },
+    {
+      "id": "zh_039",
+      "concept": "book",
+      "language": "zh-CN",
+      "target": "书",
+      "label": "书",
+      "prompt": "找一找，书在哪里？",
+      "example": "我们一起看书。",
+      "audio": {
+        "label": "/audio/zh_039-label.mp3",
+        "prompt": "/audio/zh_039-prompt.mp3",
+        "example": "/audio/zh_039-example.mp3",
+        "character": "/audio/zh_039-character.mp3"
+      },
+      "offlinePrompt": "选一本绘本，翻开看看。",
+      "theme": "家里的东西",
+      "characterPrompt": "请找出书字。"
+    },
+    {
+      "id": "zh_051",
+      "concept": "water",
+      "language": "zh-CN",
+      "target": "水",
+      "label": "水",
+      "prompt": "找一找，哪杯装着水？",
+      "example": "杯子里有水。",
+      "audio": {
+        "label": "/audio/zh_051-label.mp3",
+        "prompt": "/audio/zh_051-prompt.mp3",
+        "example": "/audio/zh_051-example.mp3",
+        "character": "/audio/zh_051-character.mp3"
+      },
+      "offlinePrompt": "请家长指给你看杯里的水。",
+      "theme": "餐桌和水果",
+      "characterPrompt": "请找出水字。"
+    },
+    {
+      "id": "zh_052",
+      "concept": "rice",
+      "language": "zh-CN",
+      "target": "饭",
+      "label": "米饭",
+      "prompt": "找一找，米饭在哪里？",
+      "example": "碗里有米饭。",
+      "audio": {
+        "label": "/audio/zh_052-label.mp3",
+        "prompt": "/audio/zh_052-prompt.mp3",
+        "example": "/audio/zh_052-example.mp3",
+        "character": "/audio/zh_052-character.mp3"
+      },
+      "offlinePrompt": "在食物绘本里找找米饭。",
+      "theme": "餐桌和水果",
+      "characterPrompt": "请找出米饭的饭字。"
+    },
+    {
+      "id": "zh_custom_apple",
+      "concept": "apple",
+      "language": "zh-CN",
+      "target": "苹",
+      "label": "苹果",
+      "prompt": "找一找，苹果在哪里？",
+      "example": "这是一个苹果。",
+      "audio": {
+        "label": "/audio/zh_custom_apple-label.mp3",
+        "prompt": "/audio/zh_custom_apple-prompt.mp3",
+        "example": "/audio/zh_custom_apple-example.mp3",
+        "character": "/audio/zh_custom_apple-character.mp3"
+      },
+      "offlinePrompt": "在绘本或水果玩具中找苹果。",
+      "theme": "水果时间",
+      "characterPrompt": "请找出苹果的苹字。"
+    },
+    {
+      "id": "zh_custom_banana",
+      "concept": "banana",
+      "language": "zh-CN",
+      "target": "蕉",
+      "label": "香蕉",
+      "prompt": "找一找，香蕉在哪里？",
+      "example": "香蕉弯弯的。",
+      "audio": {
+        "label": "/audio/zh_custom_banana-label.mp3",
+        "prompt": "/audio/zh_custom_banana-prompt.mp3",
+        "example": "/audio/zh_custom_banana-example.mp3",
+        "character": "/audio/zh_custom_banana-character.mp3"
+      },
+      "offlinePrompt": "用手指比一比香蕉弯弯的形状。",
+      "theme": "水果时间",
+      "characterPrompt": "请找出香蕉的蕉字。"
+    },
+    {
+      "id": "zh_custom_orange",
+      "concept": "orange",
+      "language": "zh-CN",
+      "target": "橙",
+      "label": "橙子",
+      "prompt": "找一找，橙子在哪里？",
+      "example": "橙子圆圆的。",
+      "audio": {
+        "label": "/audio/zh_custom_orange-label.mp3",
+        "prompt": "/audio/zh_custom_orange-prompt.mp3",
+        "example": "/audio/zh_custom_orange-example.mp3",
+        "character": "/audio/zh_custom_orange-character.mp3"
+      },
+      "offlinePrompt": "在绘本或水果玩具中找橙子。",
+      "theme": "水果时间",
+      "characterPrompt": "请找出橙子的橙字。"
+    },
+    {
+      "id": "zh_custom_strawberry",
+      "concept": "strawberry",
+      "language": "zh-CN",
+      "target": "莓",
+      "label": "草莓",
+      "prompt": "找一找，草莓在哪里？",
+      "example": "草莓上有小点点。",
+      "audio": {
+        "label": "/audio/zh_custom_strawberry-label.mp3",
+        "prompt": "/audio/zh_custom_strawberry-prompt.mp3",
+        "example": "/audio/zh_custom_strawberry-example.mp3",
+        "character": "/audio/zh_custom_strawberry-character.mp3"
+      },
+      "offlinePrompt": "和家长看看草莓图片上的小点点。",
+      "theme": "水果时间",
+      "characterPrompt": "请找出草莓的莓字。"
+    },
+    {
+      "id": "zh_028",
+      "concept": "rabbit",
+      "language": "zh-CN",
+      "target": "兔",
+      "label": "兔子",
+      "prompt": "找一找，兔子在哪里？",
+      "example": "小兔蹦蹦跳。",
+      "audio": {
+        "label": "/audio/zh_028-label.mp3",
+        "prompt": "/audio/zh_028-prompt.mp3",
+        "example": "/audio/zh_028-example.mp3",
+        "character": "/audio/zh_028-character.mp3"
+      },
+      "offlinePrompt": "用两根手指做兔耳朵。",
+      "theme": "动物朋友",
+      "characterPrompt": "请找出兔子的兔字。"
+    },
+    {
+      "id": "zh_custom_bear",
+      "concept": "bear",
+      "language": "zh-CN",
+      "target": "熊",
+      "label": "小熊",
+      "prompt": "找一找，小熊在哪里？",
+      "example": "小熊挥挥手。",
+      "audio": {
+        "label": "/audio/zh_custom_bear-label.mp3",
+        "prompt": "/audio/zh_custom_bear-prompt.mp3",
+        "example": "/audio/zh_custom_bear-example.mp3",
+        "character": "/audio/zh_custom_bear-character.mp3"
+      },
+      "offlinePrompt": "抱一抱小熊玩偶，向它挥挥手。",
+      "theme": "动物朋友",
+      "characterPrompt": "请找出小熊的熊字。"
+    },
+    {
+      "id": "zh_029",
+      "concept": "duck",
+      "language": "zh-CN",
+      "target": "鸭",
+      "label": "鸭子",
+      "prompt": "找一找，鸭子在哪里？",
+      "example": "鸭子在游水。",
+      "audio": {
+        "label": "/audio/zh_029-label.mp3",
+        "prompt": "/audio/zh_029-prompt.mp3",
+        "example": "/audio/zh_029-example.mp3",
+        "character": "/audio/zh_029-character.mp3"
+      },
+      "offlinePrompt": "在绘本里找一只鸭子。",
+      "theme": "动物朋友",
+      "characterPrompt": "请找出鸭子的鸭字。"
+    },
+    {
+      "id": "zh_047",
+      "concept": "car",
+      "language": "zh-CN",
+      "target": "车",
+      "label": "汽车",
+      "prompt": "找一找，小汽车在哪里？",
+      "example": "汽车开来了。",
+      "audio": {
+        "label": "/audio/zh_047-label.mp3",
+        "prompt": "/audio/zh_047-prompt.mp3",
+        "example": "/audio/zh_047-example.mp3",
+        "character": "/audio/zh_047-character.mp3"
+      },
+      "offlinePrompt": "在绘本里找一辆汽车。",
+      "theme": "穿戴和出行",
+      "characterPrompt": "请找出汽车的车字。"
+    },
+    {
+      "id": "zh_custom_bus",
+      "concept": "bus",
+      "language": "zh-CN",
+      "target": "巴",
+      "label": "公交车",
+      "prompt": "找一找，公交车在哪里？",
+      "example": "公交车开来了。",
+      "audio": {
+        "label": "/audio/zh_custom_bus-label.mp3",
+        "prompt": "/audio/zh_custom_bus-prompt.mp3",
+        "example": "/audio/zh_custom_bus-example.mp3",
+        "character": "/audio/zh_custom_bus-character.mp3"
+      },
+      "offlinePrompt": "在绘本或玩具里找一辆公交车。",
+      "theme": "出门看看",
+      "characterPrompt": "请找出巴士的巴字。"
+    },
+    {
+      "id": "zh_061",
+      "concept": "sun",
+      "language": "zh-CN",
+      "target": "日",
+      "label": "日，太阳。",
+      "prompt": "找一找，太阳在哪里？",
+      "example": "太阳出来了。",
+      "audio": {
+        "label": "/audio/zh_061-label.mp3",
+        "prompt": "/audio/zh_061-prompt.mp3",
+        "example": "/audio/zh_061-example.mp3",
+        "character": "/audio/zh_061-character.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找太阳。",
+      "theme": "天空与自然",
+      "characterPrompt": "请找出日字。"
+    },
+    {
+      "id": "zh_062",
+      "concept": "moon",
+      "language": "zh-CN",
+      "target": "月",
+      "label": "月亮",
+      "prompt": "找一找，月亮在哪里？",
+      "example": "月亮出来了。",
+      "audio": {
+        "label": "/audio/zh_062-label.mp3",
+        "prompt": "/audio/zh_062-prompt.mp3",
+        "example": "/audio/zh_062-example.mp3",
+        "character": "/audio/zh_062-character.mp3"
+      },
+      "offlinePrompt": "在绘本里找找月亮。",
+      "theme": "天空与自然",
+      "characterPrompt": "请找出月亮的月字。"
+    },
+    {
+      "id": "zh_custom_red_monster",
+      "concept": "red-monster",
+      "language": "zh-CN",
+      "target": "怪",
+      "label": "红色小怪兽",
+      "prompt": "找一找，红色小怪兽在哪里？",
+      "example": "红色小怪兽，毛茸茸的。",
+      "audio": {
+        "label": "/audio/zh_custom_red_monster-label.mp3",
+        "prompt": "/audio/zh_custom_red_monster-prompt.mp3",
+        "example": "/audio/zh_custom_red_monster-example.mp3",
+        "character": "/audio/zh_custom_red_monster-character.mp3"
+      },
+      "offlinePrompt": "和家长画一只友好的红色小怪兽，给它起个名字。",
+      "theme": "想象朋友",
+      "characterPrompt": "请找出小怪兽的怪字。"
+    },
+    {
+      "id": "en_021",
+      "concept": "cat",
+      "language": "en-US",
+      "target": "cat",
+      "label": "cat",
+      "prompt": "Find the cat.",
+      "example": "The cat says meow.",
+      "audio": {
+        "label": "/audio/en_021-label.mp3",
+        "prompt": "/audio/en_021-prompt.mp3",
+        "example": "/audio/en_021-example.mp3"
+      },
+      "offlinePrompt": "在绘本中找猫，家长可模仿猫叫。",
+      "theme": "动物朋友"
+    },
+    {
+      "id": "en_022",
+      "concept": "dog",
+      "language": "en-US",
+      "target": "dog",
+      "label": "dog",
+      "prompt": "Find the dog.",
+      "example": "The dog is here.",
+      "audio": {
+        "label": "/audio/en_022-label.mp3",
+        "prompt": "/audio/en_022-prompt.mp3",
+        "example": "/audio/en_022-example.mp3"
+      },
+      "offlinePrompt": "在绘本中找狗，用玩偶和它打招呼。",
+      "theme": "动物朋友"
+    },
+    {
+      "id": "en_024",
+      "concept": "fish",
+      "language": "en-US",
+      "target": "fish",
+      "label": "fish",
+      "prompt": "Find the fish.",
+      "example": "The fish can swim.",
+      "audio": {
+        "label": "/audio/en_024-label.mp3",
+        "prompt": "/audio/en_024-prompt.mp3",
+        "example": "/audio/en_024-example.mp3"
+      },
+      "offlinePrompt": "在绘本或玩具中找鱼，手掌模仿游动。",
+      "theme": "动物朋友"
+    },
+    {
+      "id": "en_023",
+      "concept": "bird",
+      "language": "en-US",
+      "target": "bird",
+      "label": "bird",
+      "prompt": "Find the bird.",
+      "example": "The bird can fly.",
+      "audio": {
+        "label": "/audio/en_023-label.mp3",
+        "prompt": "/audio/en_023-prompt.mp3",
+        "example": "/audio/en_023-example.mp3"
+      },
+      "offlinePrompt": "在窗内或绘本里找鸟，不追赶动物。",
+      "theme": "动物朋友"
+    },
+    {
+      "id": "en_058",
+      "concept": "ball",
+      "language": "en-US",
+      "target": "ball",
+      "label": "ball",
+      "prompt": "Find the ball.",
+      "example": "The ball can roll.",
+      "audio": {
+        "label": "/audio/en_058-label.mp3",
+        "prompt": "/audio/en_058-prompt.mp3",
+        "example": "/audio/en_058-example.mp3"
+      },
+      "offlinePrompt": "坐着把软球轻轻滚给家长。",
+      "theme": "穿衣与玩耍"
+    },
+    {
+      "id": "en_057",
+      "concept": "book",
+      "language": "en-US",
+      "target": "book",
+      "label": "book",
+      "prompt": "Find the book.",
+      "example": "This is a book.",
+      "audio": {
+        "label": "/audio/en_057-label.mp3",
+        "prompt": "/audio/en_057-prompt.mp3",
+        "example": "/audio/en_057-example.mp3"
+      },
+      "offlinePrompt": "选一本喜欢的绘本，摸摸封面。",
+      "theme": "穿衣与玩耍"
+    },
+    {
+      "id": "en_036",
+      "concept": "water",
+      "language": "en-US",
+      "target": "water",
+      "label": "water",
+      "prompt": "Find the water.",
+      "example": "This is water.",
+      "audio": {
+        "label": "/audio/en_036-label.mp3",
+        "prompt": "/audio/en_036-prompt.mp3",
+        "example": "/audio/en_036-example.mp3"
+      },
+      "offlinePrompt": "指指家长准备的水杯，由家长说water，不要求喝。",
+      "theme": "水果与餐桌"
+    },
+    {
+      "id": "en_038",
+      "concept": "rice",
+      "language": "en-US",
+      "target": "rice",
+      "label": "rice",
+      "prompt": "Find the rice.",
+      "example": "This is rice.",
+      "audio": {
+        "label": "/audio/en_038-label.mp3",
+        "prompt": "/audio/en_038-prompt.mp3",
+        "example": "/audio/en_038-example.mp3"
+      },
+      "offlinePrompt": "在餐桌照片或绘本中找米饭。",
+      "theme": "水果与餐桌"
+    },
+    {
+      "id": "en_031",
+      "concept": "apple",
+      "language": "en-US",
+      "target": "apple",
+      "label": "apple",
+      "prompt": "Find the apple.",
+      "example": "This is an apple.",
+      "audio": {
+        "label": "/audio/en_031-label.mp3",
+        "prompt": "/audio/en_031-prompt.mp3",
+        "example": "/audio/en_031-example.mp3"
+      },
+      "offlinePrompt": "在绘本、玩具或家中物品中指认苹果，不要求食用。",
+      "theme": "水果与餐桌"
+    },
+    {
+      "id": "en_032",
+      "concept": "banana",
+      "language": "en-US",
+      "target": "banana",
+      "label": "banana",
+      "prompt": "Find the banana.",
+      "example": "The banana is yellow.",
+      "audio": {
+        "label": "/audio/en_032-label.mp3",
+        "prompt": "/audio/en_032-prompt.mp3",
+        "example": "/audio/en_032-example.mp3"
+      },
+      "offlinePrompt": "指认图片或玩具中的香蕉。",
+      "theme": "水果与餐桌"
+    },
+    {
+      "id": "en_033",
+      "concept": "orange",
+      "language": "en-US",
+      "target": "orange",
+      "label": "orange",
+      "prompt": "Find the orange.",
+      "example": "This is an orange.",
+      "audio": {
+        "label": "/audio/en_033-label.mp3",
+        "prompt": "/audio/en_033-prompt.mp3",
+        "example": "/audio/en_033-example.mp3"
+      },
+      "offlinePrompt": "在水果绘本中找到橙子。",
+      "theme": "水果与餐桌"
+    },
+    {
+      "id": "en_custom_strawberry",
+      "concept": "strawberry",
+      "language": "en-US",
+      "target": "strawberry",
+      "label": "strawberry",
+      "prompt": "Find the strawberry.",
+      "example": "The strawberry is red.",
+      "audio": {
+        "label": "/audio/en_custom_strawberry-label.mp3",
+        "prompt": "/audio/en_custom_strawberry-prompt.mp3",
+        "example": "/audio/en_custom_strawberry-example.mp3"
+      },
+      "offlinePrompt": "和家长看看草莓图片上的小点点。",
+      "theme": "水果时间"
+    },
+    {
+      "id": "en_028",
+      "concept": "rabbit",
+      "language": "en-US",
+      "target": "rabbit",
+      "label": "rabbit",
+      "prompt": "Find the rabbit.",
+      "example": "The rabbit can hop.",
+      "audio": {
+        "label": "/audio/en_028-label.mp3",
+        "prompt": "/audio/en_028-prompt.mp3",
+        "example": "/audio/en_028-example.mp3"
+      },
+      "offlinePrompt": "用玩偶做轻轻跳动的兔子动作。",
+      "theme": "动物朋友"
+    },
+    {
+      "id": "en_custom_bear",
+      "concept": "bear",
+      "language": "en-US",
+      "target": "bear",
+      "label": "bear",
+      "prompt": "Find the bear.",
+      "example": "The bear waves hello.",
+      "audio": {
+        "label": "/audio/en_custom_bear-label.mp3",
+        "prompt": "/audio/en_custom_bear-prompt.mp3",
+        "example": "/audio/en_custom_bear-example.mp3"
+      },
+      "offlinePrompt": "抱一抱小熊玩偶，向它挥挥手。",
+      "theme": "动物朋友"
+    },
+    {
+      "id": "en_025",
+      "concept": "duck",
+      "language": "en-US",
+      "target": "duck",
+      "label": "duck",
+      "prompt": "Find the duck.",
+      "example": "The duck can swim.",
+      "audio": {
+        "label": "/audio/en_025-label.mp3",
+        "prompt": "/audio/en_025-prompt.mp3",
+        "example": "/audio/en_025-example.mp3"
+      },
+      "offlinePrompt": "在绘本里找鸭子，模仿轻轻摇摆。",
+      "theme": "动物朋友"
+    },
+    {
+      "id": "en_068",
+      "concept": "car",
+      "language": "en-US",
+      "target": "car",
+      "label": "car",
+      "prompt": "Find the car.",
+      "example": "The car can go.",
+      "audio": {
+        "label": "/audio/en_068-label.mp3",
+        "prompt": "/audio/en_068-prompt.mp3",
+        "example": "/audio/en_068-example.mp3"
+      },
+      "offlinePrompt": "在玩具车中找小汽车，轻轻推一段。",
+      "theme": "出门看看"
+    },
+    {
+      "id": "en_069",
+      "concept": "bus",
+      "language": "en-US",
+      "target": "bus",
+      "label": "bus",
+      "prompt": "Find the bus.",
+      "example": "The bus is big.",
+      "audio": {
+        "label": "/audio/en_069-label.mp3",
+        "prompt": "/audio/en_069-prompt.mp3",
+        "example": "/audio/en_069-example.mp3"
+      },
+      "offlinePrompt": "从安全位置观察公交车或找玩具公交车。",
+      "theme": "出门看看"
+    },
+    {
+      "id": "en_061",
+      "concept": "sun",
+      "language": "en-US",
+      "target": "sun",
+      "label": "sun",
+      "prompt": "Find the sun.",
+      "example": "The sun is bright.",
+      "audio": {
+        "label": "/audio/en_061-label.mp3",
+        "prompt": "/audio/en_061-prompt.mp3",
+        "example": "/audio/en_061-example.mp3"
+      },
+      "offlinePrompt": "在绘本里找太阳，不直视真实太阳。",
+      "theme": "出门看看"
+    },
+    {
+      "id": "en_062",
+      "concept": "moon",
+      "language": "en-US",
+      "target": "moon",
+      "label": "moon",
+      "prompt": "Find the moon.",
+      "example": "Look at the moon.",
+      "audio": {
+        "label": "/audio/en_062-label.mp3",
+        "prompt": "/audio/en_062-prompt.mp3",
+        "example": "/audio/en_062-example.mp3"
+      },
+      "offlinePrompt": "和家长看月亮图片，条件合适时在窗边远望夜空。",
+      "theme": "出门看看"
+    },
+    {
+      "id": "en_custom_red_monster",
+      "concept": "red-monster",
+      "language": "en-US",
+      "target": "red monster",
+      "label": "red monster",
+      "prompt": "Find the red monster.",
+      "example": "The red monster is fluffy.",
+      "audio": {
+        "label": "/audio/en_custom_red_monster-label.mp3",
+        "prompt": "/audio/en_custom_red_monster-prompt.mp3",
+        "example": "/audio/en_custom_red_monster-example.mp3"
+      },
+      "offlinePrompt": "和家长画一只友好的红色小怪兽，给它起个名字。",
+      "theme": "想象朋友"
+    },
+    {
+      "id": "en_026",
+      "concept": "cow",
+      "language": "en-US",
+      "target": "cow",
+      "label": "cow",
+      "prompt": "Find the cow.",
+      "example": "The cow says moo.",
+      "audio": {
+        "label": "/audio/en_026-label.mp3",
+        "prompt": "/audio/en_026-prompt.mp3",
+        "example": "/audio/en_026-example.mp3"
+      },
+      "offlinePrompt": "用动物玩具找奶牛，家长模仿牛叫。",
+      "theme": "动物朋友",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/cow",
+      "originalExample": "The cow says moo."
+    },
+    {
+      "id": "en_027",
+      "concept": "pig",
+      "language": "en-US",
+      "target": "pig",
+      "label": "pig",
+      "prompt": "Find the pig.",
+      "example": "The pig is pink.",
+      "audio": {
+        "label": "/audio/en_027-label.mp3",
+        "prompt": "/audio/en_027-prompt.mp3",
+        "example": "/audio/en_027-example.mp3"
+      },
+      "offlinePrompt": "在动物绘本中找猪，指指它的鼻子。",
+      "theme": "动物朋友",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/pig",
+      "originalExample": "The pig is pink."
+    },
+    {
+      "id": "en_029",
+      "concept": "horse",
+      "language": "en-US",
+      "target": "horse",
+      "label": "horse",
+      "prompt": "Find the horse.",
+      "example": "The horse can run.",
+      "audio": {
+        "label": "/audio/en_029-label.mp3",
+        "prompt": "/audio/en_029-prompt.mp3",
+        "example": "/audio/en_029-example.mp3"
+      },
+      "offlinePrompt": "在绘本中找马，用手指在桌面轻走几步。",
+      "theme": "动物朋友",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/horse",
+      "originalExample": "The horse can run."
+    },
+    {
+      "id": "en_030",
+      "concept": "sheep",
+      "language": "en-US",
+      "target": "sheep",
+      "label": "sheep",
+      "prompt": "Find the sheep.",
+      "example": "The sheep is fluffy.",
+      "audio": {
+        "label": "/audio/en_030-label.mp3",
+        "prompt": "/audio/en_030-prompt.mp3",
+        "example": "/audio/en_030-example.mp3"
+      },
+      "offlinePrompt": "摸一摸毛绒玩具，和家长一起找绘本里的绵羊。",
+      "theme": "动物朋友",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/sheep",
+      "originalExample": "The sheep is fluffy."
+    },
+    {
+      "id": "en_034",
+      "concept": "grape",
+      "language": "en-US",
+      "target": "grape",
+      "label": "grape",
+      "prompt": "Find the grape.",
+      "example": "The grape is purple.",
+      "audio": {
+        "label": "/audio/en_034-label.mp3",
+        "prompt": "/audio/en_034-prompt.mp3",
+        "example": "/audio/en_034-example.mp3"
+      },
+      "offlinePrompt": "在图片中指一颗葡萄，不安排拿取小颗实物或进食。",
+      "theme": "水果与餐桌",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/grape",
+      "originalExample": "This is a grape."
+    },
+    {
+      "id": "en_035",
+      "concept": "pear",
+      "language": "en-US",
+      "target": "pear",
+      "label": "pear",
+      "prompt": "Find the pear.",
+      "example": "The pear is green.",
+      "audio": {
+        "label": "/audio/en_035-label.mp3",
+        "prompt": "/audio/en_035-prompt.mp3",
+        "example": "/audio/en_035-example.mp3"
+      },
+      "offlinePrompt": "在水果绘本或玩具中找梨。",
+      "theme": "水果与餐桌",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/pear",
+      "originalExample": "This is a pear."
+    },
+    {
+      "id": "en_037",
+      "concept": "milk",
+      "language": "en-US",
+      "target": "milk",
+      "label": "milk",
+      "prompt": "Find the milk.",
+      "example": "I drink milk.",
+      "audio": {
+        "label": "/audio/en_037-label.mp3",
+        "prompt": "/audio/en_037-prompt.mp3",
+        "example": "/audio/en_037-example.mp3"
+      },
+      "offlinePrompt": "在图片或包装图案中找牛奶，不安排饮用。",
+      "theme": "水果与餐桌",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/milk",
+      "originalExample": "This is milk."
+    },
+    {
+      "id": "en_039",
+      "concept": "bread",
+      "language": "en-US",
+      "target": "bread",
+      "label": "bread",
+      "prompt": "Find the bread.",
+      "example": "I eat bread.",
+      "audio": {
+        "label": "/audio/en_039-label.mp3",
+        "prompt": "/audio/en_039-prompt.mp3",
+        "example": "/audio/en_039-example.mp3"
+      },
+      "offlinePrompt": "在图片或玩具中找面包。",
+      "theme": "水果与餐桌",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/bread",
+      "originalExample": "This is bread."
+    },
+    {
+      "id": "en_040",
+      "concept": "egg",
+      "language": "en-US",
+      "target": "egg",
+      "label": "egg",
+      "prompt": "Find the egg.",
+      "example": "This is an egg.",
+      "audio": {
+        "label": "/audio/en_040-label.mp3",
+        "prompt": "/audio/en_040-prompt.mp3",
+        "example": "/audio/en_040-example.mp3"
+      },
+      "offlinePrompt": "在绘本或玩具里找鸡蛋，不安排打蛋或食用。",
+      "theme": "水果与餐桌",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/egg",
+      "originalExample": "This is an egg."
+    },
+    {
+      "id": "en_041",
+      "concept": "cup",
+      "language": "en-US",
+      "target": "cup",
+      "label": "cup",
+      "prompt": "Find the cup.",
+      "example": "My cup is blue.",
+      "audio": {
+        "label": "/audio/en_041-label.mp3",
+        "prompt": "/audio/en_041-prompt.mp3",
+        "example": "/audio/en_041-example.mp3"
+      },
+      "offlinePrompt": "指指自己常用的杯子，由成人拿稳。",
+      "theme": "家里的东西",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/cup",
+      "originalExample": "This is my cup."
+    },
+    {
+      "id": "en_042",
+      "concept": "spoon",
+      "language": "en-US",
+      "target": "spoon",
+      "label": "spoon",
+      "prompt": "Find the spoon.",
+      "example": "I use a spoon.",
+      "audio": {
+        "label": "/audio/en_042-label.mp3",
+        "prompt": "/audio/en_042-prompt.mp3",
+        "example": "/audio/en_042-example.mp3"
+      },
+      "offlinePrompt": "找一把儿童勺子，在成人陪同下指认。",
+      "theme": "家里的东西",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/spoon",
+      "originalExample": "This is a spoon."
+    },
+    {
+      "id": "en_043",
+      "concept": "bowl",
+      "language": "en-US",
+      "target": "bowl",
+      "label": "bowl",
+      "prompt": "Find the bowl.",
+      "example": "The bowl is empty.",
+      "audio": {
+        "label": "/audio/en_043-label.mp3",
+        "prompt": "/audio/en_043-prompt.mp3",
+        "example": "/audio/en_043-example.mp3"
+      },
+      "offlinePrompt": "在空餐具中找碗，由成人放稳。",
+      "theme": "家里的东西",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/bowl",
+      "originalExample": "This is a bowl."
+    },
+    {
+      "id": "en_055",
+      "concept": "hat",
+      "language": "en-US",
+      "target": "hat",
+      "label": "hat",
+      "prompt": "Find the hat.",
+      "example": "I wear a hat.",
+      "audio": {
+        "label": "/audio/en_055-label.mp3",
+        "prompt": "/audio/en_055-prompt.mp3",
+        "example": "/audio/en_055-example.mp3"
+      },
+      "offlinePrompt": "指认家里的帽子或试着给玩偶戴帽子。",
+      "theme": "穿衣与玩耍",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/hat",
+      "originalExample": "This is my hat."
+    },
+    {
+      "id": "en_053",
+      "concept": "shoe",
+      "language": "en-US",
+      "target": "shoe",
+      "label": "shoe",
+      "prompt": "Find the shoe.",
+      "example": "This is my shoe.",
+      "audio": {
+        "label": "/audio/en_053-label.mp3",
+        "prompt": "/audio/en_053-prompt.mp3",
+        "example": "/audio/en_053-example.mp3"
+      },
+      "offlinePrompt": "在鞋架上指一只鞋，由成人协助。",
+      "theme": "穿衣与玩耍",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/shoe",
+      "originalExample": "This is my shoe."
+    },
+    {
+      "id": "en_054",
+      "concept": "sock",
+      "language": "en-US",
+      "target": "sock",
+      "label": "sock",
+      "prompt": "Find the sock.",
+      "example": "My sock is soft.",
+      "audio": {
+        "label": "/audio/en_054-label.mp3",
+        "prompt": "/audio/en_054-prompt.mp3",
+        "example": "/audio/en_054-example.mp3"
+      },
+      "offlinePrompt": "在干净衣物中找一只袜子。",
+      "theme": "穿衣与玩耍",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/sock",
+      "originalExample": "This is my sock."
+    },
+    {
+      "id": "en_070",
+      "concept": "train",
+      "language": "en-US",
+      "target": "train",
+      "label": "train",
+      "prompt": "Find the train.",
+      "example": "The train goes choo-choo.",
+      "audio": {
+        "label": "/audio/en_070-label.mp3",
+        "prompt": "/audio/en_070-prompt.mp3",
+        "example": "/audio/en_070-example.mp3"
+      },
+      "offlinePrompt": "用大积木排一列火车，家长一起说train。",
+      "theme": "出门看看",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/train",
+      "originalExample": "The train goes choo-choo."
+    },
+    {
+      "id": "en_063",
+      "concept": "star",
+      "language": "en-US",
+      "target": "star",
+      "label": "star",
+      "prompt": "Find the star.",
+      "example": "I see a star.",
+      "audio": {
+        "label": "/audio/en_063-label.mp3",
+        "prompt": "/audio/en_063-prompt.mp3",
+        "example": "/audio/en_063-example.mp3"
+      },
+      "offlinePrompt": "在绘本或装饰图案中找一颗星星。",
+      "theme": "出门看看",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/star",
+      "originalExample": "Look at the star."
+    },
+    {
+      "id": "en_064",
+      "concept": "cloud",
+      "language": "en-US",
+      "target": "cloud",
+      "label": "cloud",
+      "prompt": "Find the cloud.",
+      "example": "The cloud is white.",
+      "audio": {
+        "label": "/audio/en_064-label.mp3",
+        "prompt": "/audio/en_064-prompt.mp3",
+        "example": "/audio/en_064-example.mp3"
+      },
+      "offlinePrompt": "通过窗户看看云，家长陪着指认。",
+      "theme": "出门看看",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/cloud",
+      "originalExample": "The cloud is white."
+    },
+    {
+      "id": "en_066",
+      "concept": "tree",
+      "language": "en-US",
+      "target": "tree",
+      "label": "tree",
+      "prompt": "Find the tree.",
+      "example": "The tree is green.",
+      "audio": {
+        "label": "/audio/en_066-label.mp3",
+        "prompt": "/audio/en_066-prompt.mp3",
+        "example": "/audio/en_066-example.mp3"
+      },
+      "offlinePrompt": "散步时在成人陪同下指一棵树。",
+      "theme": "出门看看",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/tree",
+      "originalExample": "This is a tree."
+    },
+    {
+      "id": "en_067",
+      "concept": "flower",
+      "language": "en-US",
+      "target": "flower",
+      "label": "flower",
+      "prompt": "Find the flower.",
+      "example": "The flower is yellow.",
+      "audio": {
+        "label": "/audio/en_067-label.mp3",
+        "prompt": "/audio/en_067-prompt.mp3",
+        "example": "/audio/en_067-example.mp3"
+      },
+      "offlinePrompt": "在绘本或路边看花，不要求采摘或入口。",
+      "theme": "出门看看",
+      "contentSource": "english-expansion-v8",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V8/flower",
+      "originalExample": "This is a flower."
+    },
+    {
+      "id": "en_011",
+      "concept": "head",
+      "language": "en-US",
+      "target": "head",
+      "label": "head",
+      "prompt": "Find the head.",
+      "example": "Touch your head.",
+      "audio": {
+        "label": "/audio/en_011-label.mp3",
+        "prompt": "/audio/en_011-prompt.mp3",
+        "example": "/audio/en_011-example.mp3"
+      },
+      "offlinePrompt": "家长轻触自己的头，请孩子指指自己的头。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/head",
+      "originalExample": "This is my head.",
+      "actionHint": "轻轻摸摸头"
+    },
+    {
+      "id": "en_016",
+      "concept": "hand",
+      "language": "en-US",
+      "target": "hand",
+      "label": "hand",
+      "prompt": "Find the hand.",
+      "example": "Show me your hand.",
+      "audio": {
+        "label": "/audio/en_016-label.mp3",
+        "prompt": "/audio/en_016-prompt.mp3",
+        "example": "/audio/en_016-example.mp3"
+      },
+      "offlinePrompt": "摊开一只手，和家长互相指认。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/hand",
+      "originalExample": "This is my hand.",
+      "actionHint": "伸出一只小手"
+    },
+    {
+      "id": "en_017",
+      "concept": "foot",
+      "language": "en-US",
+      "target": "foot",
+      "label": "foot",
+      "prompt": "Find the foot.",
+      "example": "Tap your foot.",
+      "audio": {
+        "label": "/audio/en_017-label.mp3",
+        "prompt": "/audio/en_017-prompt.mp3",
+        "example": "/audio/en_017-example.mp3"
+      },
+      "offlinePrompt": "坐稳后指指自己的脚，或在玩偶上找脚。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/foot",
+      "originalExample": "This is my foot.",
+      "actionHint": "轻轻点点脚"
+    },
+    {
+      "id": "en_012",
+      "concept": "eye",
+      "language": "en-US",
+      "target": "eye",
+      "label": "eye",
+      "prompt": "Find the eye.",
+      "example": "Close your eyes.",
+      "audio": {
+        "label": "/audio/en_012-label.mp3",
+        "prompt": "/audio/en_012-prompt.mp3",
+        "example": "/audio/en_012-example.mp3"
+      },
+      "offlinePrompt": "在玩偶脸上指一只眼睛，不碰眼球。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/eye",
+      "originalExample": "This is an eye.",
+      "actionHint": "闭上眼睛，再睁开"
+    },
+    {
+      "id": "en_090",
+      "concept": "clap",
+      "language": "en-US",
+      "target": "clap",
+      "label": "clap",
+      "prompt": "Who is clapping?",
+      "example": "Clap your hands.",
+      "audio": {
+        "label": "/audio/en_090-label.mp3",
+        "prompt": "/audio/en_090-prompt.mp3",
+        "example": "/audio/en_090-example.mp3"
+      },
+      "offlinePrompt": "和家长慢慢拍两下手，可以只看家长做。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/clap",
+      "originalExample": "Clap your hands.",
+      "actionHint": "跟着拍拍手"
+    },
+    {
+      "id": "en_086",
+      "concept": "jump",
+      "language": "en-US",
+      "target": "jump",
+      "label": "jump",
+      "prompt": "Who is jumping?",
+      "example": "Jump up high.",
+      "audio": {
+        "label": "/audio/en_086-label.mp3",
+        "prompt": "/audio/en_086-prompt.mp3",
+        "example": "/audio/en_086-example.mp3"
+      },
+      "offlinePrompt": "用手掌或玩偶做轻轻跳起的动作。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/jump",
+      "originalExample": "The frog can jump.",
+      "actionHint": "在空地方轻轻跳一下"
+    },
+    {
+      "id": "en_custom_wave",
+      "concept": "wave",
+      "language": "en-US",
+      "target": "wave",
+      "label": "wave",
+      "prompt": "Who is waving?",
+      "example": "Wave hello.",
+      "audio": {
+        "label": "/audio/en_custom_wave-label.mp3",
+        "prompt": "/audio/en_custom_wave-prompt.mp3",
+        "example": "/audio/en_custom_wave-example.mp3"
+      },
+      "offlinePrompt": "和家人挥挥手，说声 hello。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/wave",
+      "originalExample": "Wave hello.",
+      "actionHint": "挥挥手，说声你好"
+    },
+    {
+      "id": "en_085",
+      "concept": "run",
+      "language": "en-US",
+      "target": "run",
+      "label": "run",
+      "prompt": "Who is running?",
+      "example": "I can run.",
+      "audio": {
+        "label": "/audio/en_085-label.mp3",
+        "prompt": "/audio/en_085-prompt.mp3",
+        "example": "/audio/en_085-example.mp3"
+      },
+      "offlinePrompt": "用玩偶在桌面演一演跑，孩子可保持坐着。",
+      "theme": "身体和动作",
+      "contentSource": "english-expansion-v11",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V11/run",
+      "originalExample": "The dog can run.",
+      "actionHint": "摆动手臂，学一学跑步"
+    },
+    {
+      "id": "en_custom_turtle",
+      "concept": "turtle",
+      "language": "en-US",
+      "target": "turtle",
+      "label": "turtle",
+      "prompt": "Find the turtle.",
+      "example": "The turtle can swim.",
+      "audio": {
+        "label": "/audio/en_custom_turtle-label.mp3",
+        "prompt": "/audio/en_custom_turtle-prompt.mp3",
+        "example": "/audio/en_custom_turtle-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找海龟，听听英文名字。",
+      "theme": "海洋朋友",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/turtle",
+      "originalExample": "The turtle can swim."
+    },
+    {
+      "id": "en_custom_crab",
+      "concept": "crab",
+      "language": "en-US",
+      "target": "crab",
+      "label": "crab",
+      "prompt": "Find the crab.",
+      "example": "The crab walks sideways.",
+      "audio": {
+        "label": "/audio/en_custom_crab-label.mp3",
+        "prompt": "/audio/en_custom_crab-prompt.mp3",
+        "example": "/audio/en_custom_crab-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找螃蟹，听听英文名字。",
+      "theme": "海洋朋友",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/crab",
+      "originalExample": "The crab walks sideways."
+    },
+    {
+      "id": "en_custom_whale",
+      "concept": "whale",
+      "language": "en-US",
+      "target": "whale",
+      "label": "whale",
+      "prompt": "Find the whale.",
+      "example": "The whale is big.",
+      "audio": {
+        "label": "/audio/en_custom_whale-label.mp3",
+        "prompt": "/audio/en_custom_whale-prompt.mp3",
+        "example": "/audio/en_custom_whale-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找鲸鱼，听听英文名字。",
+      "theme": "海洋朋友",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/whale",
+      "originalExample": "The whale is big."
+    },
+    {
+      "id": "en_custom_dolphin",
+      "concept": "dolphin",
+      "language": "en-US",
+      "target": "dolphin",
+      "label": "dolphin",
+      "prompt": "Find the dolphin.",
+      "example": "The dolphin can jump.",
+      "audio": {
+        "label": "/audio/en_custom_dolphin-label.mp3",
+        "prompt": "/audio/en_custom_dolphin-prompt.mp3",
+        "example": "/audio/en_custom_dolphin-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找海豚，听听英文名字。",
+      "theme": "海洋朋友",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/dolphin",
+      "originalExample": "The dolphin can jump."
+    },
+    {
+      "id": "en_custom_lion",
+      "concept": "lion",
+      "language": "en-US",
+      "target": "lion",
+      "label": "lion",
+      "prompt": "Find the lion.",
+      "example": "The lion has a mane.",
+      "audio": {
+        "label": "/audio/en_custom_lion-label.mp3",
+        "prompt": "/audio/en_custom_lion-prompt.mp3",
+        "example": "/audio/en_custom_lion-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找狮子，听听英文名字。",
+      "theme": "森林动物",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/lion",
+      "originalExample": "The lion has a mane."
+    },
+    {
+      "id": "en_custom_tiger",
+      "concept": "tiger",
+      "language": "en-US",
+      "target": "tiger",
+      "label": "tiger",
+      "prompt": "Find the tiger.",
+      "example": "The tiger has stripes.",
+      "audio": {
+        "label": "/audio/en_custom_tiger-label.mp3",
+        "prompt": "/audio/en_custom_tiger-prompt.mp3",
+        "example": "/audio/en_custom_tiger-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找老虎，听听英文名字。",
+      "theme": "森林动物",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/tiger",
+      "originalExample": "The tiger has stripes."
+    },
+    {
+      "id": "en_custom_elephant",
+      "concept": "elephant",
+      "language": "en-US",
+      "target": "elephant",
+      "label": "elephant",
+      "prompt": "Find the elephant.",
+      "example": "The elephant has a long trunk.",
+      "audio": {
+        "label": "/audio/en_custom_elephant-label.mp3",
+        "prompt": "/audio/en_custom_elephant-prompt.mp3",
+        "example": "/audio/en_custom_elephant-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找大象，听听英文名字。",
+      "theme": "森林动物",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/elephant",
+      "originalExample": "The elephant has a long trunk."
+    },
+    {
+      "id": "en_custom_monkey",
+      "concept": "monkey",
+      "language": "en-US",
+      "target": "monkey",
+      "label": "monkey",
+      "prompt": "Find the monkey.",
+      "example": "The monkey can climb.",
+      "audio": {
+        "label": "/audio/en_custom_monkey-label.mp3",
+        "prompt": "/audio/en_custom_monkey-prompt.mp3",
+        "example": "/audio/en_custom_monkey-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找猴子，听听英文名字。",
+      "theme": "森林动物",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/monkey",
+      "originalExample": "The monkey can climb."
+    },
+    {
+      "id": "en_047",
+      "concept": "bed",
+      "language": "en-US",
+      "target": "bed",
+      "label": "bed",
+      "prompt": "Find the bed.",
+      "example": "I sleep in my bed.",
+      "audio": {
+        "label": "/audio/en_047-label.mp3",
+        "prompt": "/audio/en_047-prompt.mp3",
+        "example": "/audio/en_047-example.mp3"
+      },
+      "offlinePrompt": "指指自己的床和枕头。",
+      "theme": "家里的东西",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/bed",
+      "originalExample": "This is a bed."
+    },
+    {
+      "id": "en_050",
+      "concept": "lamp",
+      "language": "en-US",
+      "target": "lamp",
+      "label": "lamp",
+      "prompt": "Find the lamp.",
+      "example": "Turn on the lamp.",
+      "audio": {
+        "label": "/audio/en_050-label.mp3",
+        "prompt": "/audio/en_050-prompt.mp3",
+        "example": "/audio/en_050-example.mp3"
+      },
+      "offlinePrompt": "指指家里的灯，由成人示范名称，不摸灯泡。",
+      "theme": "家里的东西",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/lamp",
+      "originalExample": "This is a lamp."
+    },
+    {
+      "id": "en_custom_pillow",
+      "concept": "pillow",
+      "language": "en-US",
+      "target": "pillow",
+      "label": "pillow",
+      "prompt": "Find the pillow.",
+      "example": "My pillow is soft.",
+      "audio": {
+        "label": "/audio/en_custom_pillow-label.mp3",
+        "prompt": "/audio/en_custom_pillow-prompt.mp3",
+        "example": "/audio/en_custom_pillow-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找枕头，听听英文名字。",
+      "theme": "晚安时间",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/pillow",
+      "originalExample": "My pillow is soft."
+    },
+    {
+      "id": "en_custom_blanket",
+      "concept": "blanket",
+      "language": "en-US",
+      "target": "blanket",
+      "label": "blanket",
+      "prompt": "Find the blanket.",
+      "example": "My blanket keeps me warm.",
+      "audio": {
+        "label": "/audio/en_custom_blanket-label.mp3",
+        "prompt": "/audio/en_custom_blanket-prompt.mp3",
+        "example": "/audio/en_custom_blanket-example.mp3"
+      },
+      "offlinePrompt": "和家长在绘本里找一找毯子，听听英文名字。",
+      "theme": "晚安时间",
+      "contentSource": "english-expansion-v13",
+      "exampleSource": "scripts/prepare-content.py#ENGLISH_EXPANSION_V13/blanket",
+      "originalExample": "My blanket keeps me warm."
+    }
+  ],
+  "systemAudio": {
+    "zh-CN": {
+      "start": "/audio/system-zh-start.mp3",
+      "again": "/audio/system-zh-again.mp3",
+      "help": "/audio/system-zh-help.mp3",
+      "finished": "/audio/system-zh-finished.mp3",
+      "coin": "/audio/system-zh-coin.mp3",
+      "rest": "/audio/system-zh-rest.mp3",
+      "match": "/audio/system-zh-match.mp3",
+      "choose": "/audio/system-zh-choose.mp3",
+      "good": "/audio/system-zh-good.mp3",
+      "game": "/audio/system-zh-game.mp3",
+      "done": "/audio/system-zh-done.mp3"
+    },
+    "en-US": {
+      "start": "/audio/system-en-start.mp3",
+      "again": "/audio/system-en-again.mp3",
+      "help": "/audio/system-en-help.mp3",
+      "finished": "/audio/system-en-finished.mp3",
+      "coin": "/audio/system-en-coin.mp3",
+      "rest": "/audio/system-en-rest.mp3",
+      "match": "/audio/system-en-match.mp3",
+      "choose": "/audio/system-en-choose.mp3",
+      "good": "/audio/system-en-good.mp3",
+      "game": "/audio/system-en-game.mp3",
+      "done": "/audio/system-en-done.mp3"
+    }
+  }
+}
