@@ -1,0 +1,72 @@
+[
+  {
+    "style": "C-conversation",
+    "speaker": "Uncle_Fu",
+    "instruction": "用标准普通话自然说话，语气温和，吐字清楚，语速适中，句间自然停顿。",
+    "texts": [
+      "猫",
+      "找一找，小猫在哪里？",
+      "选一个喜欢的娃娃，把它带回家吧。",
+      "奶奶鲨没有牙齿。",
+      "爷爷鲨戴着眼镜。"
+    ],
+    "source": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit",
+    "revision": "41d3337e8b7f2843a75841595fc14e4b9a7a4b96",
+    "before": {
+      "integrated_lufs": -23.29,
+      "true_peak_dbtp": -4.57,
+      "active_rms_dbfs": -22.0883,
+      "sample_peak_dbfs": -4.5848,
+      "decoded_samples": 607257,
+      "duration_ms": 13819,
+      "size_bytes": 166183,
+      "sha256": "9d4243b0fe364ccceb2c841bb8df694a3bb6cb5d0b1495337f7ecc7757a1ecf5"
+    },
+    "after": {
+      "integrated_lufs": -18.09,
+      "true_peak_dbtp": -3.21,
+      "active_rms_dbfs": -16.8698,
+      "sample_peak_dbfs": -3.2295,
+      "decoded_samples": 607257,
+      "duration_ms": 13819,
+      "size_bytes": 166183,
+      "sha256": "1ef38dd4fa3c4cb014f644423486a65fd6e17bd6c69d8e6cf25550c12fc474ec"
+    },
+    "human_review": "pending"
+  },
+  {
+    "style": "D-playful",
+    "speaker": "Uncle_Fu",
+    "instruction": "用标准普通话，像爸爸陪小朋友一起玩游戏，亲切、轻松，带一点微笑。语速适中，顺着句子的意思自然说话。",
+    "texts": [
+      "猫",
+      "找一找，小猫在哪里？",
+      "选一个喜欢的娃娃，把它带回家吧。",
+      "奶奶鲨没有牙齿。",
+      "爷爷鲨戴着眼镜。"
+    ],
+    "source": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit",
+    "revision": "41d3337e8b7f2843a75841595fc14e4b9a7a4b96",
+    "before": {
+      "integrated_lufs": -21.0,
+      "true_peak_dbtp": -3.91,
+      "active_rms_dbfs": -19.8509,
+      "sample_peak_dbfs": -3.9126,
+      "decoded_samples": 639009,
+      "duration_ms": 14524,
+      "size_bytes": 174647,
+      "sha256": "e36fdeaf7d3d6836ecd8aaa0cf1cffec17fd1201a5954c86c5b9e87d3413b67d"
+    },
+    "after": {
+      "integrated_lufs": -18.03,
+      "true_peak_dbtp": -3.42,
+      "active_rms_dbfs": -16.96,
+      "sample_peak_dbfs": -3.4232,
+      "decoded_samples": 639009,
+      "duration_ms": 14524,
+      "size_bytes": 174647,
+      "sha256": "7dea7f2b37c633f9f0ec57719f2cce04cf9803be6d53570d845ce60f0beb74a2"
+    },
+    "human_review": "pending"
+  }
+]
